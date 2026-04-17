@@ -1,5 +1,9 @@
 # Pixel 9 Pro Hardening
 
+## Backups
+
+See [Scripts.md](./Scripts.md)
+
 ## Disable google packages
 
 A script to disable common google services that aren't needed. Audit this list periodically.
