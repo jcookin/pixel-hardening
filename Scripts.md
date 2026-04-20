@@ -56,3 +56,13 @@ Ensure the logs directory has been created
 ```sh
 mkdir $HOME/logs
 ```
+
+### !!! CRITICAL SETUP
+
+On Android 16, the background processes DO NOT run without having Termux the app launched with a `Wake Lock`.
+
+So, launch Termux, then pull down from the notification bar and select `acquire wake lock` which allows the actual background processes to stay alive indefinitely.
+
+This MUST be repeated each reboot of the device. No workaround has been found yet to prevent Termux from being killed off in the background by Android (sad).
+
+> Battery life - Unless running a lot of scripts or other processes within Termux, minimal battery life impact

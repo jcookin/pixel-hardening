@@ -13,7 +13,7 @@ export RESTIC_PASSWORD="<RESTIC_PASSWORD>"
 export AWS_ACCESS_KEY_ID="<BUCKET_ACCESS_KEY_ID>"
 export AWS_SECRET_ACCESS_KEY="<BUCKET_SECRET_ACCESS_KEY>"
 export AWS_REGION="us-east-1"
-# Or use "-o s3.bucket-lookup=path" in restic cmd
+# Or use "-o s3.bucket-lookup=path" in restic cmd 
 export AWS_S3_FORCE_PATH_STYLE=true # Required since dns-based paths not configured
 
 # Run Backup
